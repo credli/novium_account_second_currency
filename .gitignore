@@ -1,0 +1,28 @@
+.DS_Store
+# sphinx build directories
+_build/
+
+# dotfiles
+.*
+!.gitignore
+!.gitkeep
+!.github
+
+# compiled python files
+*.py[co]
+__pycache__/
+
+# setup.py egg_info
+*.egg-info
+
+# emacs backup files
+*~
+
+# hg stuff (if applicable)
+*.orig
+*.status
+
+# odoo filestore and config
+odoo/filestore
+/odoo.conf
+
